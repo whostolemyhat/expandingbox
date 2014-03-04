@@ -1,0 +1,30 @@
+body {
+    // background: url('/img/fragmented-light.png') 0 0 repeat #fff;
+}
+.main {
+    margin: auto;
+    max-width: 960px;
+}
+
+.box {
+    display: block;
+    width: 32%;
+    margin: 1% 0.5%;
+    float: left;
+    background: #efefef;
+    max-height: 100px;
+}
+
+.template {
+    background: url('/img/fragmented-green.png') 0 0 repeat #2FBB4F;
+    text-align: center;
+    margin-left: -100%;
+    margin-right: -100%;
+    clear: both;
+
+    .main {
+        height: 200px;
+        padding: 1rem 0;
+        background: #2FBB4F;
+    }
+}
