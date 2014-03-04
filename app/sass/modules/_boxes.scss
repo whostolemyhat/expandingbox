@@ -21,10 +21,15 @@ body {
     margin-left: -100%;
     margin-right: -100%;
     clear: both;
+    display: none;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
 
     .main {
         height: 200px;
         padding: 1rem 0;
-        background: #2FBB4F;
+        background: #333;
+        color: #fff;
+        border: 3px solid #2FBB4F
     }
 }

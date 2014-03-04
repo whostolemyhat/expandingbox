@@ -495,9 +495,14 @@ fieldset {
   text-align: center;
   margin-left: -100%;
   margin-right: -100%;
-  clear: both; }
-  /* line 25, ../sass/modules/_boxes.scss */
+  clear: both;
+  display: none;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc; }
+  /* line 28, ../sass/modules/_boxes.scss */
   .template .main {
     height: 200px;
     padding: 1rem 0;
-    background: #2FBB4F; }
+    background: #333;
+    color: #fff;
+    border: 3px solid #2fbb4f; }
